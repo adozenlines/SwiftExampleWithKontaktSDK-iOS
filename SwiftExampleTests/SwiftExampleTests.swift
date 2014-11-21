@@ -3,7 +3,7 @@
 //  SwiftExampleTests
 //
 //  Created by Lukasz Hlebowicz on 14/11/14.
-//  Copyright (c) 2014 Lukasz Hlebowicz. All rights reserved.
+//  Copyright (c) 2014 kontakt.io. All rights reserved.
 //
 
 import UIKit
