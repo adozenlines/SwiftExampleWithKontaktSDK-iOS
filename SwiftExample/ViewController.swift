@@ -41,7 +41,10 @@ class ViewController: UIViewController, KTKLocationManagerDelegate {
 
 
     func locationManager(locationManager: KTKLocationManager!, didChangeState state: KTKLocationManagerState, withError error: NSError!) {
-        println("STATE \(state.hashValue)");
+        if (state == .Failed)
+        {
+            println("Something went wrong with your Location Services settings. Check your settings.");
+        }
     }
     
     func locationManager(locationManager: KTKLocationManager!, didEnterRegion region: KTKRegion!) {
